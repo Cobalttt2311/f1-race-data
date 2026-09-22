@@ -1,13 +1,31 @@
-# Environment variables
+﻿# Environment variables
 .env
+.env.local
+.env.*.local
+!.env.example
 
-# Python
+# Python & Virtual Environments
 __pycache__/
 *.py[cod]
 *$py.class
 venv/
 .venv/
+env/
 
-# Scratch & temporary logs
-.gemini/
+# Data & Large Archives
+*.zip
+*.archive
+*.tar.gz
+
+# IDE & Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary files
 *.log
+.gemini/
