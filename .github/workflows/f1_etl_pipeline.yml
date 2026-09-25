@@ -2,8 +2,8 @@ name: Formula 1 ETL Pipeline
 
 on:
   schedule:
-    # Runs every 1 hour on Friday, Saturday, Sunday, and Monday (UTC)
-    - cron: '0 * * * 5,6,0,1'
+    # Runs every 1 hour at minute 23 on Friday, Saturday, Sunday, and Monday (UTC)
+    - cron: '23 * * * 5,6,0,1'
   workflow_dispatch: # Allows manual trigger from the GitHub Actions tab anytime
   push:
     branches: [ "main" ]
