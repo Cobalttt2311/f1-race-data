@@ -1,4 +1,4 @@
-﻿# 🏎️ F1 - Race Data - ETL
+# 🏎️ F1 - Race Data - ETL
 
 An automated **Extract, Transform, and Load (ETL)** pipeline designed to ingest, clean, and synchronize comprehensive historical and modern Formula 1 motorsport datasets (1950 – present) into a relational PostgreSQL database.
 
